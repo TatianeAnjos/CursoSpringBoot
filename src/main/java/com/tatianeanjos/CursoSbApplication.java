@@ -126,7 +126,7 @@ public class CursoSbApplication implements CommandLineRunner{
 		pagamentoRepository.saveAll(Arrays.asList(pgt1,pgt2));
 		
 		ItemPedido ip1 = new ItemPedido(p1,ped1, 0.00, 1, 2000.00);
-		ItemPedido ip2 = new ItemPedido(p2,ped1,0.00,2,80.00);
+		ItemPedido ip2 = new ItemPedido(p3,ped1,0.00,2,80.00);
 		ItemPedido ip3 = new ItemPedido(p2,ped2,100.00,1,800.00);
 		
 		ped1.getItens().addAll(Arrays.asList(ip1,ip2));
